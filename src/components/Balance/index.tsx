@@ -39,7 +39,7 @@ export default function Balance(props: BalanceProps) {
         <Text style={styles.itemTitle}>Gastos</Text>
         <View style={styles.content}>
           <Text style={styles.currencySymbol}>R$</Text>
-          <Text style={styles.expenses}>{expense}</Text>
+          <Text style={styles.expenses}>-{expense}</Text>
         </View>
       </View>
     </MotiView>

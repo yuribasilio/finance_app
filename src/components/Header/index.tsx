@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, StyleSheet, StatusBar, TouchableOpacity } from "react-native";
 import { Feather } from "@expo/vector-icons";
-import {MotiView, MotiText} from 'moti'
+import {MotiView} from 'moti'
 
 export interface HeaderProps {
   name: String,
@@ -14,6 +14,7 @@ export default function Header(props: HeaderProps) {
 
   return (
     <View style={styles.container}>
+      <StatusBar barStyle="light-content"/>
       <MotiView 
         style={styles.content}
         from={{
