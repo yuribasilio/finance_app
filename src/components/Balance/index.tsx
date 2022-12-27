@@ -15,16 +15,14 @@ export default function Balance(props: BalanceProps) {
     <MotiView 
       style={[styles.container, styles.shadowProp]}
       from={{
-        rotateX: '-100deg',
         opacity: 0
       }}
       animate={{
-        rotateX: '0deg',
         opacity: 1
       }}
       transition={{
         type: 'timing',
-        duration: 200,
+        duration: 600,
         delay: 600,
       }}
     >

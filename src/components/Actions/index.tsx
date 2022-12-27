@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
   },
   actionButton: {
     alignItems: 'center',
-    marginRight: 32,
+    marginRight: 40,
   },
   areaButton: {
     backgroundColor: '#e2e2e2',
